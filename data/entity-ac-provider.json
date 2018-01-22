@@ -1,0 +1,53 @@
+{
+  "item": [
+    {
+      "name": "false",
+      "id": "false",
+      "description": "false",
+      "more": "false",
+      "type": "person"
+    },
+    {
+      "name": "Kindermann Heinz Prof. Leiter des Zentralinstituts für Theaterwissenschaft der Universität Wien",
+      "id": "kindermann_heinz",
+      "description": "Kindermann Heinz Prof. Leiter des Zentralinstituts für Theaterwissenschaft der Universität Wien http://d-nb.info/gnd/118562193",
+      "more": "http://d-nb.info/gnd/118562193"
+    },
+    {
+      "name": "Meyer Ruth Diplom Bibliothekarin",
+      "id": "meyer_ruth",
+      "description": "Meyer Ruth Diplom Bibliothekarin http://d-nb.info/gnd/1056621966",
+      "more": "http://d-nb.info/gnd/1056621966"
+    },
+    {
+      "name": "Kālidāsa Schriftsteller",
+      "id": "kalidasa",
+      "description": "Kālidāsa Schriftsteller http://d-nb.info/gnd/118559516",
+      "more": "http://d-nb.info/gnd/118559516"
+    },
+    {
+      "name": "Shakespeare William Dichter Dramatiker",
+      "id": "shakespeare_william",
+      "description": "Shakespeare William Dichter Dramatiker http://d-nb.info/gnd/118613723",
+      "more": "http://d-nb.info/gnd/118613723"
+    },
+    {
+      "name": "Pirckheimer Willibald Humanist",
+      "id": "pirckheimer_willibald",
+      "description": "Pirckheimer Willibald Humanist http://d-nb.info/gnd/118594605",
+      "more": "http://d-nb.info/gnd/118594605"
+    },
+    {
+      "name": "Habsburg Maximilian I von Kaiser",
+      "id": "von_Habsburg_maximilian",
+      "description": "Habsburg Maximilian I von Kaiser http://d-nb.info/gnd/118579371",
+      "more": "http://d-nb.info/gnd/118579371"
+    },
+    {
+      "name": "Hölderlin Friedrich",
+      "id": "hölderlin_friedrich",
+      "description": "Hölderlin Friedrich http://d-nb.info/gnd/118551981",
+      "more": "http://d-nb.info/gnd/118551981"
+    }
+  ]
+}

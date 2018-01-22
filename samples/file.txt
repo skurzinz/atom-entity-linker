@@ -1,17 +1,2 @@
-This is a simple text file. All 3 providers will work here.
-
-Go ahead, start typing the name of a fruit (basic provider), the word "super"
-(intermediate provider), or "@" (advanced provider).
-Start typing to replace this text.
-You don't need filler text for your prompts. Start typing: @
-
-@snippet
-kin (notice where the cursor is).
-Start typing to replace this text.
-Wulf
-Wul
-tiefe
-@snippet1
-Reiter Vicky
-Tiefenbacher Sara
-tiefenbacher_sara
+This is a simple text file.
+Try e.g. typing "Kind"
