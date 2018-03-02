@@ -1,4 +1,18 @@
-# atom-autocomplete-boilerplate
+# atom-entity-linker
+
+An Atom plugin providing autocomplete functions for tagging entities with `tei:rs` tags and `@ref` pointing to the entities' `@xml:id`.
+
+The autocomplete will be triggered after typing the following prefix
+`@pe` -> triggers AC for *persons*
+`@pl` -> triggers AC for *places*
+`@wo` -> triggers AC for *works*
+`@or` -> triggers AC for *organisations*
+
+something like `@plWien` will be e.g. replaced through `<rs type='place' ref='#{idOfWien}'></rs>`
+
+This plug in based on `atom-autocomplete-boilerplate` package (see below for the original README.md)
+
+## atom-autocomplete-boilerplate
 
 Boilerplate package for creating your own custom autocomplete provider for Atom.
 
