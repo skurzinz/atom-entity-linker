@@ -1,2 +1,13 @@
 This is a simple text file.
 Try e.g. typing "Kind"
+Kin
+Tie
+Tief
+Tief
+Wul
+<rs type='person' ref='#sachs_hans'>adsf</rs>
+<rs type='person' ref='#sachs_hans'>
+<rs type='person' ref='#kindermann_heinz'>
+
+Wulf
+Wulf
