@@ -10,7 +10,7 @@ The autocomplete will be triggered after typing the following prefix
 
 something like `@plWien` will be e.g. replaced through `<rs type='place' ref='#{idOfWien}'></rs>`
 
-This plug in based on `atom-autocomplete-boilerplate` package (see below for the original README.md)
+This plug in based on [atom-autocomplete-boilerplate](https://github.com/lonekorean/atom-autocomplete-boilerplate) package released under MIT License by Will Boyd. The follwoing parts of this readme are taken from there.
 
 ## atom-autocomplete-boilerplate
 
