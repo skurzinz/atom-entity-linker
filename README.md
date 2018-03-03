@@ -3,10 +3,11 @@
 An Atom plugin providing autocomplete functions for tagging entities with `tei:rs` tags and `@ref` pointing to the entities' `@xml:id`.
 
 The autocomplete will be triggered after typing the following prefix
-`@pe` -> triggers AC for *persons*
-`@pl` -> triggers AC for *places*
-`@wo` -> triggers AC for *works*
-`@or` -> triggers AC for *organisations*
+
+* `@pe` -> triggers AC for *persons*
+* `@pl` -> triggers AC for *places*
+* `@wo` -> triggers AC for *works*
+* `@or` -> triggers AC for *organisations*
 
 something like `@plWien` will be e.g. replaced through `<rs type='place' ref='#{idOfWien}'></rs>`
 

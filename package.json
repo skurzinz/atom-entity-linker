@@ -1,23 +1,32 @@
 {
-  "name": "atom-entity-linker",
-  "main": "./lib/main",
-  "version": "0.0.1",
-  "description": "Package to link entities to some Index-Files.",
-  "keywords": [
-    "autocomplete",
-    "TEI"
-  ],
-  "repository": "https://github.com/KONDE-AT/atom-entity-linker",
-  "author": "Peter Andorfer",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.15.0 <2.0.0"
-  },
-  "providedServices": {
-    "autocomplete.provider": {
-      "versions": {
-        "2.0.0": "getProvider"
-      }
+    "name": "atom-entity-linker",
+    "main": "./lib/main",
+    "version": "0.0.1",
+    "description": "Package to link entities to some Index-Files.",
+    "keywords": [
+        "autocomplete",
+        "TEI"
+    ],
+    "repository": "https://github.com/KONDE-AT/atom-entity-linker",
+    "author": "Peter Andorfer",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.15.0 <2.0.0"
+    },
+    "providedServices": {
+        "autocomplete.provider": {
+            "versions": {
+                "2.0.0": "getProvider"
+            }
+        }
+    },
+    "configSchema": {
+        "setBaseUrl": {
+            "title": "Set base URL",
+            "description": "Enter the URL pointing to your entity-autocomplete-endpoint",
+            "type": "string",
+            "default": "http://127.0.0.1:8080/exist/apps/dsebaseapp/ac/entity-ac.xql?entity=",
+            "order": 1
+        }
     }
-  }
 }
