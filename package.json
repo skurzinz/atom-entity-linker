@@ -27,6 +27,13 @@
             "type": "string",
             "default": "http://127.0.0.1:8080/exist/apps/dsebaseapp/ac/entity-ac.xql?entity=",
             "order": 1
+        },
+        "apis": {
+            "title": "Fetch entities from an APIS-Instance",
+            "description": "Set to true if you'd like to use an APIS Instance as entity-provider",
+            "type": "boolean",
+            "default": false,
+            "order": 1
         }
     }
 }
