@@ -39,3 +39,6 @@ Atom provides a built-in way to download and install packages, but for local dev
 Don't forget to reload Atom when you make changes!
 - On Mac, hit `ctrl` + `option` + `command` + `L`.
 - On Windows, hit `ctrl` + `shift` + `F5`.
+
+
+BASE-URL for APIS: https://{mydomain}/apis/tei/autocomplete/
