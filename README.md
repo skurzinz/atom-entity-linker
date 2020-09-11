@@ -11,7 +11,14 @@ The autocomplete will be triggered after typing the following prefix
 
 something like `@plWien` will be e.g. replaced through `<rs type='place' ref='#{idOfWien}'></rs>`
 
-This plug in based on [atom-autocomplete-boilerplate](https://github.com/lonekorean/atom-autocomplete-boilerplate) package released under MIT License by Will Boyd. The follwoing parts of this readme are taken from there.
+This plug in based on [atom-autocomplete-boilerplate](https://github.com/lonekorean/atom-autocomplete-boilerplate) package released under MIT License by Will Boyd. The following parts of this readme are taken from there.
+
+## Setup with APIS-based MPR entity base
+
+After installation (below), set the preferences of the plugin to "fetch entities from an APIS instance" and set base url to `https://mpr.acdh.oeaw.ac.at/apis/tei/autocomplete/`
+
+![ATOM preferences screenshot](apis-entity-linker.png "ATOM preferences screenshot")
+
 
 ## atom-autocomplete-boilerplate
 
@@ -32,7 +39,7 @@ Atom provides a built-in way to download and install packages, but for local dev
     - On Mac, you might need to start Atom and go to Atom &gt; Install Shell Commands.
     - On Windows, it's probably already there.
 3. Open your terminal, navigate into the repo directory, then run `apm link`.
-4. Back in Atom, you should now see atom-autocomplete-boilerplate installed.
+4. Back in Atom, you should now see atom-<del>autocomplete-boilerplate</del><ins>entity-linker</ins> installed.
     - On Mac, you'll find it under Atom &gt; Preferences... &gt; Packages &gt; Community Packages.
     - On Windows, you'll find it under File &gt; Settings &gt; Packages &gt; Community Packages.
 
@@ -42,3 +49,5 @@ Don't forget to reload Atom when you make changes!
 
 
 BASE-URL for APIS: https://{mydomain}/apis/tei/autocomplete/
+
+
